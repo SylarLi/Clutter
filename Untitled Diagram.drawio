@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T03:01:22.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="aiZINdC3qKdL2CW5Csb5" version="15.8.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-06T03:03:40.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="AwA4pPGJexkTZmEaKd-f" version="15.8.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Entity Relationship">
     <mxGraphModel dx="4031" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -900,8 +900,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="1250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="210" y="690" />
-              <mxPoint x="210" y="1250" />
+              <mxPoint x="250" y="690" />
+              <mxPoint x="250" y="1015" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -911,40 +911,20 @@
         <mxCell id="_1zHHW_3OKBSO-8s6XUt-26" value="Is current point around&amp;nbsp; A?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="_1zHHW_3OKBSO-8s6XUt-1">
           <mxGeometry x="335" y="650" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_1zHHW_3OKBSO-8s6XUt-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-30" target="_1zHHW_3OKBSO-8s6XUt-32">
+        <mxCell id="_1zHHW_3OKBSO-8s6XUt-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-30" target="_1zHHW_3OKBSO-8s6XUt-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="840" />
+              <mxPoint x="520" y="425" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_1zHHW_3OKBSO-8s6XUt-30" value="Find nearest walkable point around R" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="_1zHHW_3OKBSO-8s6XUt-1">
           <mxGeometry x="335" y="800" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_1zHHW_3OKBSO-8s6XUt-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-32" target="_1zHHW_3OKBSO-8s6XUt-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_1zHHW_3OKBSO-8s6XUt-32" value="Process: Walk2Target" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="_1zHHW_3OKBSO-8s6XUt-1">
-          <mxGeometry x="330" y="950" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_1zHHW_3OKBSO-8s6XUt-37" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-35" target="_1zHHW_3OKBSO-8s6XUt-46">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="1220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_1zHHW_3OKBSO-8s6XUt-35" value="Arrived?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="_1zHHW_3OKBSO-8s6XUt-1">
-          <mxGeometry x="335" y="1060" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_1zHHW_3OKBSO-8s6XUt-40" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-35" target="_1zHHW_3OKBSO-8s6XUt-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="1150" as="sourcePoint" />
-            <mxPoint x="410" y="1230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="270" y="1100" />
-              <mxPoint x="270" y="840" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_1zHHW_3OKBSO-8s6XUt-46" value="Process: CheckRack&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="_1zHHW_3OKBSO-8s6XUt-1">
-          <mxGeometry x="330" y="1220" width="140" height="50" as="geometry" />
+          <mxGeometry x="330" y="990" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_1zHHW_3OKBSO-8s6XUt-52" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-49" target="_1zHHW_3OKBSO-8s6XUt-51">
           <mxGeometry relative="1" as="geometry" />
@@ -955,12 +935,13 @@
         <mxCell id="_1zHHW_3OKBSO-8s6XUt-51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="_1zHHW_3OKBSO-8s6XUt-1">
           <mxGeometry x="140" y="46.5" width="80" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="_1zHHW_3OKBSO-8s6XUt-54" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-30" target="_1zHHW_3OKBSO-8s6XUt-49">
+        <mxCell id="_1zHHW_3OKBSO-8s6XUt-54" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="_1zHHW_3OKBSO-8s6XUt-1" source="_1zHHW_3OKBSO-8s6XUt-30" target="_1zHHW_3OKBSO-8s6XUt-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="740" as="sourcePoint" />
             <mxPoint x="670" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="590" y="840" />
+              <mxPoint x="400" y="930" />
+              <mxPoint x="590" y="930" />
               <mxPoint x="590" y="71" />
             </Array>
           </mxGeometry>
@@ -970,7 +951,7 @@
             <mxPoint x="410" y="1010" as="sourcePoint" />
             <mxPoint x="410" y="1070" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="1245" />
+              <mxPoint x="650" y="1015" />
               <mxPoint x="650" y="71" />
             </Array>
           </mxGeometry>
