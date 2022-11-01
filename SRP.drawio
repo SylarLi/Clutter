@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:17:19.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="rQDvPRX7AIWxUV1B-Lga" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:20:04.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GGyHUfu6rjsVR6BTpEBH" version="15.9.1" type="github">
   <diagram id="IQbRNcUlZCxby9lTR7-g" name="Page-1">
     <mxGraphModel dx="1550" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6WZFq6Dg8Aul4Ds419DR-7" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Cameras&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="264" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="264" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6WZFq6Dg8Aul4Ds419DR-9" value="Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="264" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="264" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6WZFq6Dg8Aul4Ds419DR-11" value="ScriptableRenderContext" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="460" y="210" width="180" height="320" as="geometry">
@@ -45,20 +45,23 @@
             <mxPoint x="334" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6WZFq6Dg8Aul4Ds419DR-20" value="Engine" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="300" y="840" width="230" height="40" as="geometry" />
+        <mxCell id="6WZFq6Dg8Aul4Ds419DR-26" value="Core Structure" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="280" y="610" width="290" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="6WZFq6Dg8Aul4Ds419DR-21" value="Core RP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="300" y="790" width="230" height="40" as="geometry" />
+        <mxCell id="6WZFq6Dg8Aul4Ds419DR-20" value="Engine" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="6WZFq6Dg8Aul4Ds419DR-26">
+          <mxGeometry x="30" y="140" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6WZFq6Dg8Aul4Ds419DR-22" value="URP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="300" y="740" width="70" height="40" as="geometry" />
+        <mxCell id="6WZFq6Dg8Aul4Ds419DR-21" value="Core RP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="6WZFq6Dg8Aul4Ds419DR-26">
+          <mxGeometry x="30" y="90" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6WZFq6Dg8Aul4Ds419DR-23" value="HDRP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="379" y="740" width="70" height="40" as="geometry" />
+        <mxCell id="6WZFq6Dg8Aul4Ds419DR-22" value="URP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="6WZFq6Dg8Aul4Ds419DR-26">
+          <mxGeometry x="30" y="40" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6WZFq6Dg8Aul4Ds419DR-24" value="Custom RP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="460" y="740" width="70" height="40" as="geometry" />
+        <mxCell id="6WZFq6Dg8Aul4Ds419DR-23" value="HDRP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="6WZFq6Dg8Aul4Ds419DR-26">
+          <mxGeometry x="109" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6WZFq6Dg8Aul4Ds419DR-24" value="Custom RP" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="6WZFq6Dg8Aul4Ds419DR-26">
+          <mxGeometry x="190" y="40" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
