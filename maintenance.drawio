@@ -1,9 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T08:21:40.326Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="21.3.0" etag="jLpE8hsT6VPUTBi59dL6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T07:47:18.472Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="hEuNpWNwWExQt6FZRu1y" version="21.3.0" type="github">
   <diagram name="Page-1" id="dbpJPx3zQGFUIyQtWBNA">
-    <mxGraphModel>
+    <mxGraphModel dx="698" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-50" value="Server Maintenance Flow" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="400" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-8" value="Remove Game Session Build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-50">
+          <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-50" source="XkwDAgM6hhJPjJKCZIzu-9" target="XkwDAgM6hhJPjJKCZIzu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-9" value="Set PlayFab Game Version To Null" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-50">
+          <mxGeometry x="140" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-12" value="Deploy New Game Session Build" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-50">
+          <mxGeometry x="40" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-50" source="XkwDAgM6hhJPjJKCZIzu-8" target="XkwDAgM6hhJPjJKCZIzu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-14" value="Update PlayFab Game Version&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-50">
+          <mxGeometry x="140" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-50" source="XkwDAgM6hhJPjJKCZIzu-12" target="XkwDAgM6hhJPjJKCZIzu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-17" value="Deploy New Client Package" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-50">
+          <mxGeometry x="240" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-50" source="XkwDAgM6hhJPjJKCZIzu-8" target="XkwDAgM6hhJPjJKCZIzu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="220" as="sourcePoint" />
+            <mxPoint x="110" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-50" source="XkwDAgM6hhJPjJKCZIzu-17" target="XkwDAgM6hhJPjJKCZIzu-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="230" as="sourcePoint" />
+            <mxPoint x="120" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-20" value="Open Server" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-50">
+          <mxGeometry x="140" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-50" source="XkwDAgM6hhJPjJKCZIzu-14" target="XkwDAgM6hhJPjJKCZIzu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-64" value="Client &amp;nbsp;Fetching&amp;nbsp;Flow" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1210" width="690" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-22" value="Client Login" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-27" value="Request PlayFab&amp;nbsp;Game Version" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="70" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-22" target="XkwDAgM6hhJPjJKCZIzu-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-29" value="PlayFab Game Version &amp;nbsp;Is Null" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="60" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-27" target="XkwDAgM6hhJPjJKCZIzu-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-31" value="Server Is On&amp;nbsp;Maintenance" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-29" target="XkwDAgM6hhJPjJKCZIzu-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-33" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XkwDAgM6hhJPjJKCZIzu-32">
+          <mxGeometry x="-0.08" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="220" y="550" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-31" target="XkwDAgM6hhJPjJKCZIzu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-36" target="XkwDAgM6hhJPjJKCZIzu-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-40" value="PlayFab Game Version&amp;nbsp;&lt;br&gt;==&lt;br&gt;Local Game Version" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="280" y="310" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-41" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-29" target="XkwDAgM6hhJPjJKCZIzu-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-42" target="XkwDAgM6hhJPjJKCZIzu-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-42" value="Inform Player To Update Game" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="290" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-40" target="XkwDAgM6hhJPjJKCZIzu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-44" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XkwDAgM6hhJPjJKCZIzu-43">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-47" value="Matchmaking" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="510" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XkwDAgM6hhJPjJKCZIzu-64" source="XkwDAgM6hhJPjJKCZIzu-40" target="XkwDAgM6hhJPjJKCZIzu-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-49" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XkwDAgM6hhJPjJKCZIzu-48">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XkwDAgM6hhJPjJKCZIzu-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="XkwDAgM6hhJPjJKCZIzu-64">
+          <mxGeometry x="110" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
